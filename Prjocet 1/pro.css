@@ -1,0 +1,730 @@
+html {
+  scroll-behavior:smooth;
+}
+
+
+
+
+.home
+{
+    background-color: black;
+    width:100%;
+    height: 600px;
+    background-image:url("https://scontent.famm10-1.fna.fbcdn.net/v/t1.15752-9/275429965_381086310156659_446420832072300820_n.png?_nc_cat=103&ccb=1-5&_nc_sid=ae9488&_nc_ohc=8plciskmbD8AX8ippeq&_nc_ht=scontent.famm10-1.fna&oh=03_AVLnTchmOpMgp1f2eHRerbz70Hqw4lxImDixE_9DudKSMg&oe=6250DF9D");
+    background-repeat: no-repeat;
+    background-size: 350px 445px;
+    background-position: 1100px;
+}
+
+
+.home-content
+{
+  position: relative;
+  top:160px;
+  
+
+
+}
+
+.text-1
+{
+  position:relative;
+  left:120px;
+  top:80px;
+}
+
+
+#homeid
+{
+
+    display: flex;
+    flex-direction: column;
+    background-color:black;
+    height: 800px;
+    justify-content:center;
+    align-items: center;
+    color: white;
+}
+
+
+.about-content
+{
+ height: 600px;
+ width: 400px;
+ background-color:white;
+ position: relative;
+
+ top:100px;
+ width: 500px;
+}
+
+.lan-content
+{
+height: 600px;
+width:100%;
+background-color:white;
+ text-align: center;
+
+}
+
+.text-2
+{
+text-align: center;
+position: relative;
+top:230px;
+right:17px;
+
+}
+
+.text-7
+{
+  text-align: center;
+  position: relative;
+  top:0px;
+  left:455px;
+
+
+}
+
+.text-about
+{
+
+  text-align: center;
+  position: relative;
+  top:80px;
+  left:450px;
+ border:3px solid #FFCFBF;
+ padding: 30px;
+  padding-left:50px;
+  padding-right:50px;
+
+}
+.text-3
+{
+  text-align: center;
+    position: relative;
+    top:100px;
+    right:200px;
+  
+
+}
+
+.quali-content
+{
+
+
+    background-color: white;
+    width:100%;
+    height: 100px;
+    display: inline;
+}
+
+.edu
+{
+  background-color: white;
+  width:300px;
+  height: 250px;
+  position: relative;
+  left:400px;
+  top:680px;
+  border:2px solid #FFCFBF;
+  text-align: center;
+  width:350px;
+
+}
+.edu:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 20px 18px 42px 5px rgba(161,158,161,1);
+}
+
+
+.tech
+{
+
+    background-color:#FFCFBF;
+    width:300px;
+    height: 250px;
+    position: relative;
+    left:400px;
+    top:15px;
+    border:2px solid #FFCFBF;
+    text-align: center;
+    padding: 20px;
+    width:350px;
+
+}
+
+.tech:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 20px 18px 42px 5px rgba(161,158,161,1);
+}
+
+
+.soft
+{
+
+    background-color:white;
+    width:300px;
+    height: 250px;
+    position: relative;
+    left:800px;
+    top:-230px;
+    border:2px solid #FFCFBF;
+    text-align: center;
+    padding: 20px;
+    width:350px;
+
+}
+.soft:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 20px 18px 42px 5px rgba(161,158,161,1);
+}
+
+
+.languagess
+{
+  background-color:white;
+  width:300px;
+  height: 250px;
+  position: relative;
+  left:400px;
+  top:100px;
+  border:2px solid #FFCFBF;
+  text-align: center;
+  width:350px;
+
+}
+.languagess:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 20px 18px 42px 5px rgba(161,158,161,1);
+}
+.exp
+{
+
+    background-color:#FFCFBF;
+    width:300px;
+    height: 250px;
+    position: relative;
+    left:800px;
+    top:-70px;
+    border:2px solid #FFCFBF;
+    text-align: center;
+    width:350px;
+}
+
+.cer
+{
+
+  background-color:#FFCFBF;
+  width:300px;
+  height: 250px;
+  position: relative;
+  left:800px;
+  top:-150px;
+  border:2px solid #FFCFBF;
+  text-align: center;
+  width:350px;
+}
+
+.cer:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 20px 18px 42px 5px rgba(161,158,161,1);
+}
+
+.qualifications
+{
+
+  height: 1450px;
+}
+
+.exp:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 20px 18px 42px 5px rgba(161,158,161,1);
+}
+
+.arabic
+{
+
+    width:280px;
+    height: 190px;
+    position: relative;
+    left:200px;
+    top:200px;
+
+}
+
+.english
+{
+    position: relative;
+
+
+}
+
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 300px;
+    height: 350px;
+    border-radius: 9px;
+    position: relative;
+    left:250px;
+    top:130px;
+   
+
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 black;
+  }
+  .card2:hover {
+    box-shadow: 0 8px 16px 0 black;
+  }
+
+  .card3:hover {
+    box-shadow: 0 8px 16px 0 black;
+  }
+  
+  .container {
+    padding: 35px 36px;
+    height: 100px;
+  }
+
+  .ref-content
+  {
+
+
+    background-color: white;
+    width:100%;
+    height: 650px;
+
+
+  }
+
+  .sub
+  {
+
+    position: relative;
+    top:30px;
+    right:290px;
+    background-color:#FFCFBF;
+    border-radius: 6px;
+    
+  }
+
+
+  .card2
+  {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 300px;
+    height: 350px;
+    border-radius: 9px;
+    position: relative;
+    left:920px;
+    top:-222px;
+
+  }
+
+  .card3
+  {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 300px;
+    height: 350px;
+    border-radius: 6px;
+    position: relative;
+    left:590px;
+    top:-400px;
+
+
+  }
+
+  .references
+  {
+    background-color: white;
+    width:100%;
+    height: 750px;
+  }
+
+
+
+
+
+
+
+  .about
+  {
+
+    height:450px;
+  }
+
+  .text-4
+{
+  position:relative;
+  left:120px;
+  top:25px;
+  color: white;
+}
+
+.forrm
+{
+
+  text-align: center;
+  
+}
+
+
+.foot
+{
+
+  background-color:black;
+  width:100%;
+  height: 350px;
+  
+}
+
+.iconsfooter
+{
+
+text-align: center;
+position: relative;
+top:-100px;
+left:150px;
+
+}
+
+.icon1
+{
+ 
+ font-size: 60px; 
+ display: inline;
+ color:#f18764;
+ position:relative;
+ right:80px;
+}
+.icon2
+{
+ 
+ font-size: 60px; 
+ display: inline;
+ color:#f18764;
+ position:relative;
+ right:50px;
+}
+
+.icon3
+{
+ 
+ font-size: 60px; 
+ display: inline;
+ color:#f18764;
+ position:relative;
+ right:20px;
+}
+
+.icon4
+{
+ 
+ font-size: 60px; 
+ display: inline;
+ color:#f18764;
+ position:relative;
+ left:5px;
+}
+
+
+.icon5
+{
+color:#f18764;
+  position:relative;
+ left:680px;
+ top:-20px;
+
+
+}
+
+
+.navbar
+{
+
+  display: flex;
+}
+
+
+/*------------------------------------------------------media query-----------------------------------------------------------*/
+
+@media (max-width: 1000px) {
+    
+ .navbar
+ {
+
+  position: relative;
+  right:300px;
+ }
+
+.home-content
+{
+position: relative;
+right:180px;
+font-size: 8px;
+top:200px;
+}
+
+.about-content
+{
+background-image: none;
+background-color: white;
+position: relative;
+text-align: left;
+left:200px;
+font-size:10px;
+top:30px;
+}
+
+.quali-content
+{
+
+  position: relative;
+ text-align: left;
+}
+
+.languages
+{
+  position: relative;
+  top:225px;
+
+}
+
+.languagess
+{
+
+position: relative;
+left:75px;
+width:200px;
+top:180px;
+
+}
+
+.about
+{
+
+  position: relative;
+  right:650px;
+  font-size: 10px;
+  text-align: left;
+ 
+}
+.text-7
+  {
+ position: relative;
+
+
+  }
+
+  .bb
+  {position: relative;
+  text-align: left;
+  font-size: 15px;
+  top:-50px;
+  right:30px;
+  height: 50px;
+  
+  }
+
+.aa{
+position: relative;
+left:70px;
+}
+
+.text-about
+{
+  text-align: left;
+  top:100px;
+ width:400px;
+ 
+}
+.pp
+{
+
+width:10px;
+height: 10px;
+}
+
+.edu{
+
+  position: relative;
+  left:70px;
+top:20px;
+width:200px;
+height: 300px;
+}
+
+.tech{
+
+  position: relative;
+  left:70px;
+  top:80px;
+  width:200px;
+}
+
+.soft{
+  position: relative;
+  left:70px;
+  top:100px;
+   width:200px;
+}
+.exp{
+
+  position: relative;
+  left:70px;
+  top:150px;
+  width:200px;
+  height:400px;
+}
+
+.cer{
+
+
+  position: relative;
+  left:70px;
+  top:190px;
+  width:200px;
+  height:200px;
+}
+
+.card
+  {
+    position: relative;
+    left:20px;
+    width:100 ;
+    height:150;
+    top:400px;
+  }
+
+  .card2
+  {
+    position: relative;
+    left:20px;
+    top:420px;
+
+  }
+  .card3
+  {
+    position: relative;
+    left:20px;
+    top:450px;
+  }
+
+  .contact-content
+  {
+
+    position: relative;
+    top:50px;
+
+  }
+  .text-4{
+
+    position: relative;
+    top:80px;
+   left:-2px;
+   font-size: 5px;
+  }
+
+  .forrm{
+
+
+position: relative;
+left:200px;
+width: 80%;
+
+  }
+
+  .foot
+  {
+
+    position: relative;
+    top:800px;
+    
+  }
+
+.iconsfooter
+{
+
+position: relative;
+top:-150px;
+left:30px;
+
+}
+
+  .cc{
+    position: relative;
+left:5px;
+    font-size: 15px;
+  }
+
+  .hh
+  {
+
+    position: relative;
+    font-size: 10px;
+  }
+
+  .name
+  {
+
+    position: relative;
+    top:200px;
+    right:30px;
+  }
+  .icon{
+    position: relative;
+    top:200px;
+    font-size: 15px;;
+    
+
+  }
+  .languages
+  {
+ position: relative;
+ right:170px;
+
+  }
+  .text-3
+  {
+
+    position: relative;
+    left:15px;
+  }
+  
+
+  .nav-item
+  {
+
+ position: relative;
+ right:830px;
+background-color:#FFCFBF;
+ 
+  }
+  .ll
+  {
+  position: relative;
+  left:100px;
+  }
+
+  .text-2{
+
+  position: relative;
+  top:400px;
+
+  }
+}
+
+
